@@ -23,6 +23,7 @@
   float:left;
   position:relative;
   background:#999;
+  
 }
 #navMenu ul li a{
   padding-top: 5px;
@@ -34,7 +35,7 @@
   width:230px;
   display:block;
   color:#FFF;
-  border:1px solid #FFF;
+  border:1px solid #000;
   text-shadow: 1px 1px 1px #000;
 }
 #navMenu ul ul li a{
@@ -47,11 +48,11 @@
   top:42px;
 }
 
+/* Hover effect begins from here */
 #navMenu ul li:hover ul{
   visibility: visible;
 }
 
-/* Hover effect begins from here */
 
 #navMenu li:hover{
   background:#009fe1;
