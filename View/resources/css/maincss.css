@@ -11,6 +11,10 @@
 body{
     font-family: GeosansLight;
 }
+#topBarBackground{
+    box-shadow: 0.5px 0.5px 0.5px #888888;
+    
+}
 #Logo, #Logo img{
     float: left;
     width: 170px;
@@ -18,7 +22,6 @@ body{
     margin-top: -5px;
 }
 #topBar{
-    margin-top: 15px;
     width: 1268px;
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +37,7 @@ body{
 }
 
 #navMenu li{
+    box-shadow: 1px 1px 1px #888888;
   margin:0;
   padding:0;
   list-style: none;
@@ -53,10 +57,11 @@ body{
    width:230px;
    display:block;
    border: 1px solid black;
-   color: #2130DA;
+   color: #000;
    text-shadow: 0.3px 0.3px 0.3px #000;
    font-size: 20px;
 }
+
 #navMenu ul ul li a{
   padding-top: 0px;
   padding-bottom: 0px;
@@ -93,6 +98,8 @@ body{
   }
   /*********************/
   #background{
+      box-shadow: 0.5px 0.5px 0.5px #888888;
+      margin-top: 10px;
       overflow: auto;
       margin-left: auto;
       margin-right: auto;
@@ -110,6 +117,8 @@ body{
       margin-top: 40px;
   }
   #content p{
+      padding-left: 10px;
+      padding-right: 10px;
       line-height: 150%;
       margin-top: 20px;
       font-size: 17px;
