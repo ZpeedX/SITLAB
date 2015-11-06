@@ -15,7 +15,6 @@ html{
 }
 body{
     height: 100%;
-    
     font-family: GeosansLight;
 }
 div#content{
@@ -26,7 +25,8 @@ div#content{
 #topBarBackground{
     min-width: 1268px;
     box-shadow: 0.5px 0.5px 0.5px #888888;
-    
+        position: relative;
+    z-index: 1;
 }
 #Logo, #Logo img{
     float: left;
@@ -157,4 +157,8 @@ footer p{
     margin-top: 10px;
     font-weight: bold;
 }
-  
+#slider{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}

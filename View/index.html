@@ -8,7 +8,11 @@
  <link href ="resources/css/reset.css" rel="stylesheet" type="text/css"/>
  <link href ="resources/css/maincss.css" rel="stylesheet" type="text/css"/>
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+ <!-- bxSlider Javascript file -->
+ <script src="../ViewModel/jquery.bxslider.min.js"></script>
+ <!-- bxSlider CSS file -->
+ <link href="../ViewModel/jquery.bxslider.css" rel="stylesheet" />
+  <script src="../ViewModel/plugins/jquery.fitvids.js"></script>
  </head>
 
  <body>
@@ -69,6 +73,14 @@
 </div>
 <br class="clearFloat"/>
 </div>
+         <div id="slider">
+       <ul class="bxslider">
+           <li style="background-color: red;">dffsfsdfsd</li>
+  <li><iframe width="400" height="180" src="https://www.youtube.com/embed/g2bT2jhJATs" frameborder="0" allowfullscreen></iframe></li>
+  <li><img src="resources/images/pics1.jpg" /></li>
+  <li><img src="resources/images/pics1.jpg" /></li>
+  </ul> 
+         </div>
      <div id="background">
          <div id="info">
          <h1>Welcome to SITLAB</h1>
@@ -95,5 +107,21 @@
          </div>
      </footer>
      </div>
+     <script>
+     $(document).ready(function(){
+        $('.bxslider').bxSlider({
+    auto: true,
+    autoControls: true,
+    video: true,
+    useCSS: false,
+    minSlides: 2,
+    maxSlides: 2,
+  slideWidth: 450,
+  slideMargin: 10
+    });
+    });
+    
+
+    </script>
  </body>
 </html>
